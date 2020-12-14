@@ -1,0 +1,763 @@
+
+/*======== site default css ========*/ 
+*{
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*======== google fonts ========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+	width: 1170px;
+    padding: 0;
+	margin: 0 auto;
+}
+
+.container:before,
+.container:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-33{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-22{
+    width: 22%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-25{
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-31{
+    width: 31%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-35{
+    width: 35%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-40{
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60{
+    width: 60%;
+    padding: 0 15px;
+    float: right;
+}
+
+.col-65{
+    width: 65%;
+    padding: 0 15px;
+    float: left;
+}
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+.section-padding-bottom {
+    padding-bottom : 100px;
+}
+
+/*======== header part css ========*/ 
+
+.header-top {
+    background: #85CCC5;
+    height: 88px;
+}
+
+.logo img {
+    width: 154px;
+    height: 85px;
+}
+
+.main-menu {
+    padding: 33px 0;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    padding: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.main-menu ul li a:hover {
+    color: #e09b0e;
+    transition: .3s;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/*======== home part css ========*/ 
+
+.home {
+    background: url('../images/h1-slide-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 660px;
+    width: 100%;
+    padding: 147px 0;
+}
+
+.home-pera h2 {
+    font-size: 76px;
+    font-family: 'Nunito', sans-serif;
+    color: #85CCC5;
+    text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+.home-pera p {
+    padding: 33px 0;
+    color: #555555;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+.home-pera button {
+    padding: 18px 46px;
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    background: #FDD172;
+    color: #504b4b;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.home-pera button:hover {
+    background: #7EC2BC;
+    color: #fff;
+    transition: .3s;
+}
+
+/*======== categoriy box css ========*/ 
+
+section.all-category-box {
+    margin-top: -79px;
+}
+
+.box-1 {
+    background: url('../images/h1-box-1.jpg');
+}
+
+.box-2 {
+    background: url('../images/h1-box-2.png');
+}
+
+.box-3 {
+    background: url('../images/h1-box-3.jpg');
+}
+
+.category-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 285px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.category-box h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 128px 0 21px 25px;
+    text-shadow: 1px 2px 7px #474747;
+    font-weight: 400;
+}
+
+.category-box p {
+    font-family: 'Nunito', sans-serif;
+    padding: 0 62px 0 24px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.col-p-0 .col-33 {
+    padding: 0;
+}
+
+/*======== category item css ========*/ 
+
+.ctgr {
+    padding: 28px 0;
+}
+
+.ctgr img {
+    float: left;
+    transition: .4s;
+}
+
+.ctgr img:hover {
+    margin-top: -10px;
+    transition: .4s;
+}
+
+.ctgr h3 {
+    padding: 37px 0 25px 80px;
+    color: #434343;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.ctgr p {
+    clear: both;
+    color: #888888;
+    line-height: 28px;
+}
+
+section.categori-item.section-padding-bottom {
+    padding-bottom: 70px;
+}
+
+/*======== learning system css ========*/
+
+.learning-system {
+    background: url('../images/h1-kids.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 656px;
+    width: 100%;
+}
+
+.lrng {
+    background: #FDCF71;
+    margin: 100px 0 0 83px;
+    padding-bottom: 47px;
+}
+
+.learning-system .col-50 {
+    float: right;
+}
+
+.systm h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 60px 0 29px 47px;
+    text-shadow: 1px 4px 0 #969696, 1px 3px 5px #aba8a8;
+    font-weight: 300;
+}
+
+.systm p {
+    color: #313131;
+    margin-left: 46px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.systm button {
+    padding: 16px 43px;
+    margin-top: 50px;
+    margin-left: 51px;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #212121;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.systm button:hover{
+    background: #434343;
+    color: #fff;
+    transition: .3s;
+}
+
+/*======== letest events css ========*/
+
+.letest-pera {
+    text-align: center;
+}
+
+.letest-pera h2 {
+    font-size: 37px;
+    color: #434343;
+    padding: 0 0 23px 0;
+}
+
+.letest-pera p {
+    color: #888888;
+    line-height: 26px;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.event-item{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.event-item img{
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+}
+
+.event-item .date{
+    position: absolute;
+    background: #FDCF71;
+    color: #fff;
+    padding: 13px 20px;
+    top: 0;
+    left: 0;
+}
+
+.event-item:hover img{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.event-item:hover .date {
+    background: #000;
+    color: #fff;
+    transition: .3s;
+}
+
+.events-pera {
+    margin-top: 39px;
+}
+
+.events-pera h4 {
+    font-size: 22px;
+    color: #434343;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f7e4e4;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.events-pera h4:hover {
+    color: #FDCF71;
+    transition: .3s;
+}
+
+.evnt {
+    margin-top: 24px;
+    color: #808080;
+    line-height: 30px;
+}
+
+.evnt i {
+    margin-right: 13px;
+    font-size: 13px;
+}
+
+.evnt span {
+    font-size: 16px;
+}
+
+/*======== empowering children css ========*/
+
+.empowering-children {
+    background: url('../images/h1-birds.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 633px;
+    width: 100%;
+}
+
+.empowering-children-left {
+    margin-top: 133px;
+    height: 367px;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.empowering-children-left img {
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+}
+
+.empowering-children-left:hover img{
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+.empowering-children-right {
+    margin-top: 149px;
+    margin-left: 35px;
+}
+
+.empowering-children-right h3 {
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif;
+    color: #434343;
+}
+
+.empowering-children-right p {
+    color: #888888;
+    margin-top: 22px;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.empowering-children-right h5 {
+    display: inline-block;
+    font-size: 18px;
+    padding: 42px 94px 0 0;
+    color: #555555;
+}
+
+.empowering-children-right h5 span {
+    font-size: 50px;
+    color: #fdcf71;
+}
+
+/*======== popular courses css ========*/
+
+.popular-item{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.popular-item img{
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+}
+
+.popular-item .icn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #FDCF71;
+    color: #fff;
+    padding: 13px 20px;
+    visibility: hidden;
+}
+
+.popular-item:hover .icn {
+    visibility: visible;
+    transition: .3s;
+}
+
+.popular-item:hover img{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.course {
+    margin-top: 31px;
+    margin-left: 20px;
+}
+
+.pplr {
+    border: 1px solid #ddd;
+}
+
+.course h3 {
+    color: #434343;
+    font-size: 25px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.course h3:hover {
+    color: #FDCF71;
+    transition: .3s;
+}
+
+span.crs {
+    float: right;
+    margin-top: -59px;
+    background: #FDCF71;
+    color: #fff;
+    padding: 9px;
+    margin-right: 16px;
+    font-size: 13px;
+}
+
+span.crs-1 {
+    font-size: 16px;
+    color: #b9b9b9;
+    transition: .3s;
+    cursor: pointer;
+}
+
+span.crs-1:hover {
+    color: #606264;
+    transition: .3s;
+}
+
+.course p {
+    margin-top: 18px;
+    line-height: 27px;
+    font-size: 15px;
+    margin-right: 28px;
+    color: #8e8080;
+    cursor: pointer;
+    padding-bottom: 37px;
+    border-bottom: 1px solid #decece;
+}
+
+.pplrs-icn {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-bottom: 33px;
+    cursor: pointer;
+}
+
+.pplrs-icn span {
+    margin-left: 3px;
+    color: #a29999;
+    margin-right: 29px;
+}
+
+.pplrs-icn i {
+    color: #ab9797;
+    margin-right: 5px;
+}
+
+/*======== kindergarten admission css ========*/
+
+.kindergarten {
+    background: url('../images/h1-image-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 724px;
+    width: 100%;
+}
+
+.admission {
+    margin-top: 133px;
+    text-align: center;
+    font-size: 23px;
+    color: #5D5D5C;
+    padding-bottom: 27px;
+}
+
+.form {
+    margin-left: 149px;
+}
+
+.form input {
+    padding: 18px 85px 18px 20px;
+    border: none;
+    margin-left: 24px;
+    margin-top: 2px;
+}
+
+.form button {
+    padding: 15px 76px;
+    background: #FDCF71;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 630px;
+    font-size: 18px;
+    margin-top: -51px;
+    display: block;
+}
+
+.form button:hover {
+    background: #434343;
+}
+
+/*======== footer css ========*/
+
+.footer {
+    background: url('../images/h1-footer-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    width: 100%;
+    padding: 108px 0 0 0;
+}
+
+.footer-menu h4 {
+    color: #313131;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-menu p {
+    color: #888888;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+
+.icon {
+    color: #888181;
+    font-size: 15px;
+    line-height: 31px;
+}
+
+.icon i {
+    margin-right: 11px;
+}
+
+.menu-1 ul li {
+    list-style: none;
+    color: #bfa9a9;
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.menu-1 ul li a {
+    text-decoration: none;
+    line-height: 31px;
+    color: #524c4c;
+    font-size: 16px;
+}
+
+.menu-1 ul li a:hover {
+    color: #FDCF71;
+}
+
+.menu-2 ul li {
+    list-style: none;
+}
+
+.menu-2 ul li a {
+    text-decoration: none;
+    line-height: 31px;
+    color: #888888;
+}
+
+.menu-2 ul li a:hover {
+    color: #FDCF71;
+}
+
+.border {
+    border-bottom: 1px solid #d2c9c9;
+    margin-top: 294px;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: #948e87;
+}
+
+.footer-left a:hover{
+    color: #FDCF71;
+}
+
+.footer-left {
+    float: left;
+    margin-top: -79px;
+    font-size: 15px;
+    color: #847474;
+}
+
+.footer-right {
+    margin-top: -79px;
+    display: flex;
+    font-size: 15px;
+    margin-left: 262px;
+}
+
+.footer-right span {
+    color: #797373;
+    margin-right: 38px;
+    cursor: pointer;
+}
+
+.footer-right p {
+    font-size: 13px;
+    margin-top: 1px;
+    margin-right: 14px;
+    color: #777373;
+}
+
+.footer-icon-1 {
+    margin-left: 558px;
+    margin-top: -16px;
+    color: #438AC1;
+    cursor: pointer;
+}
+
+.footer-icon-2 {
+    margin-left: 589px;
+    margin-top: -19px;
+    color: #5E6F91;
+}
+
+.footer-icon-3 {
+    margin-left: 612px;
+    margin-top: -18px;
+    color: #B93E2E;
+}
+
+.footer-icon-4 {
+    margin-left: 646px;
+    margin-top: -18px;
+    color: #B93E2E;
+}
+
+
+
